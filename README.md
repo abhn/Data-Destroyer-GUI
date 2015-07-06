@@ -5,4 +5,4 @@ The tool is GNU/Linux only at the moment, due to the directory structure. The 'd
 and licenced under GNU's GPL, so is this tool. 
 
 ### Screenshot
-[dd screenshot](https://raw.githubusercontent.com/abhn/Data-Destroyer-GUI/master/meta/dd.png "dd screenshot")
+![dd screenshot](https://raw.githubusercontent.com/abhn/Data-Destroyer-GUI/master/meta/dd.png "dd screenshot"
