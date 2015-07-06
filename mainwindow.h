@@ -10,6 +10,7 @@
 #include <QRegularExpression>
 #include <QProcess>
 #include <QScrollBar>
+#include <QMessageBox>
 
 namespace Ui {
 class MainWindow;
@@ -27,6 +28,8 @@ private slots:
     void on_toolButton_clicked();
     void onReadStdin();
     void on_commandLinkButton_clicked();
+
+    void on_actionUsage_triggered();
 
 private:
     Ui::MainWindow *ui;

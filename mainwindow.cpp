@@ -49,3 +49,12 @@ void MainWindow::on_commandLinkButton_clicked()
     args << inputFile << outputFile << "bs=4M";
     pro->start(bin, args);
 }
+
+void MainWindow::on_actionUsage_triggered()
+{
+    QMessageBox mbox;
+    mbox.setText("Click the (...) and select the source file to be written to the disk.\nSelect the appropriate device using the drop down destination menu.\nRECHECK"
+                 " before hitting the \"write to disk!\" button.\nThe data on the disk will be lost");
+    mbox.setStandardButtons(QMessageBox::Ok);
+    mbox.exec();
+}
